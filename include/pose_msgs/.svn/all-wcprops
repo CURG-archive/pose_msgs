@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/ros/!svn/ver/51/fiducials/pose_msgs/include/pose_msgs
+END
+static_pose_node.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/ros/!svn/ver/51/fiducials/pose_msgs/include/pose_msgs/static_pose_node.h
+END
+pose_msgs_defaults.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ros/!svn/ver/51/fiducials/pose_msgs/include/pose_msgs/pose_msgs_defaults.h
+END

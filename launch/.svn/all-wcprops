@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/ros/!svn/ver/52/fiducials/pose_msgs/launch
+END
+demo_sync.launch
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/ros/!svn/ver/52/fiducials/pose_msgs/launch/demo_sync.launch
+END
+demo.launch
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ros/!svn/ver/51/fiducials/pose_msgs/launch/demo.launch
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/ros/!svn/ver/41/fiducials/pose_msgs/srv
+END
+GetPose.srv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ros/!svn/ver/41/fiducials/pose_msgs/srv/GetPose.srv
+END
+GetPoses.srv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ros/!svn/ver/41/fiducials/pose_msgs/srv/GetPoses.srv
+END
