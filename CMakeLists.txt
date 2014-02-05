@@ -5,7 +5,7 @@ project(pose_msgs)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS message_generation geometry_msgs roscpp tf)
-find_package(v4r_libraries)
+#find_package(v4r_libraries)
 
 find_package(OpenCV)
 
@@ -23,7 +23,8 @@ ENDIF(NOT OpenCV_FOUND)
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
 # catkin_python_setup()
 
-include_directories(include  ${catkin_INCLUDE_DIRS} ${v4r_libraries_INCLUDE_DIRS} 	${OpenCV_INCLUDE_DIRS})
+#include_directories(include  ${catkin_INCLUDE_DIRS} ${v4r_libraries_INCLUDE_DIRS} 	${OpenCV_INCLUDE_DIRS})
+include_directories(include  ${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 
 ################################################
 ## Declare ROS messages, services and actions ##
@@ -120,8 +121,8 @@ add_definitions( -DBOOST_FILESYSTEM_VERSION=2 )
 #   ${catkin_LIBRARIES}
 # )
 
-add_executable(static_pose src/static_pose_node.cpp include/pose_msgs/static_pose_node.h include/pose_msgs/pose_msgs_defaults.h)
-target_link_libraries(static_pose  v4rutils ${catkin_LIBRARIES}  ${OpenCV_LIBS})
+#add_executable(static_pose src/static_pose_node.cpp include/pose_msgs/static_pose_node.h include/pose_msgs/pose_msgs_defaults.h)
+#target_link_libraries(static_pose  v4rutils ${catkin_LIBRARIES}  ${OpenCV_LIBS})
 
 #############
 ## Install ##
