@@ -24,7 +24,7 @@ ENDIF(NOT OpenCV_FOUND)
 # catkin_python_setup()
 
 #include_directories(include  ${catkin_INCLUDE_DIRS} ${v4r_libraries_INCLUDE_DIRS} 	${OpenCV_INCLUDE_DIRS})
-include_directories(include  ${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
+include_directories( include ${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 
 ################################################
 ## Declare ROS messages, services and actions ##
